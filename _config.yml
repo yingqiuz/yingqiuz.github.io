@@ -1,22 +1,23 @@
 # ----
 # Site
 
-title: Aperture Template
+title: Ying-Qiu Zheng
 url: "https://cosmic-hippopotamus.cloudvent.net"
 baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Photography portfolio template for Jekyll.
+description: Slowly becoming a tree.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Ying-Qiu Zheng
+  email: contact@yingqiuzheng.me
+  twitter: Yingqiu_Zheng
+  github-url: yingqiuz
 social:
-  name: Aperture Template
+  name: Ying-Qiu Zheng
   links:
-    - https://github.com/CloudCannon/aperture-jekyll-template
+    - https://yingqiuzheng.me
 
 # -----
 # Build

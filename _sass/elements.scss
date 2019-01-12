@@ -11,8 +11,12 @@ header {
 }
 
 a {
-	color: $link-color;
+	color: $color;
 	text-decoration: none;
+
+	&:hover {
+			color: $link-color;
+		}
 }
 
 p {
@@ -33,6 +37,7 @@ nav {
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: -15px;
+	font-size: 1em;
 
 	a {
 		padding: 15px;
@@ -45,7 +50,30 @@ nav {
 		}
 
 		&:hover {
+			color: $link-color;
+		}
+	}
+}
+
+section{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.3em;
+
+	a {
+		padding: 20px;
+		text-decoration: none;
+		color: darken($color, 30%);
+		transition: color .2s ease;
+
+		&.active {
 			color: $color;
+		}
+
+		&:hover {
+			color: $link-color;
 		}
 	}
 }
@@ -55,7 +83,16 @@ img {
 }
 
 footer {
+	font-size: .8em;
 	text-align: center;
 	color: #aaa;
 	margin: 23px 0;
+
+	a {
+		color: #aaa;
+
+		&:hover {
+			color: $link-color
+		}
+	}
 }
