@@ -7,7 +7,7 @@
 
 		{% seo %}
 
-		<link href="https://fonts.googleapis.com/css?family=Alegreya|Amiri|Cardo|Cinzel|Cormorant+Garamond|Noto+Serif+JP|Noto+Serif+TC|Special+Elite&amp;subset=chinese-traditional,japanese" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cardo|Cormorant+Garamond:300,400|Noto+Serif+JP:200,300,400|Noto+Serif+TC:200&amp;subset=chinese-traditional,japanese" rel="stylesheet">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 		<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
@@ -27,7 +27,7 @@
 	<body>
 		<div class="wrap">
 			<header>
-				<h1><a href="/">Aperture</a></h1>
+				<h1><a href="/">{{ page.title }}</a></h1>
 				{% include navigation.html %}
 			</header>
 			{{ content }}
