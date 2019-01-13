@@ -65,15 +65,16 @@ header h1 a {
 			align-items: center;
 			color: $color;
 			font-size: 1.1em;
-			background-color: rgba($background, .8);
+			background-color: rgba($background, .75);
 			padding: 15px;
 			width: 94.75%;
 			vertical-align: center;
             margin-top: 40%;
+            transition: 0.3s;
         }
 
         a:hover .album-static-cover {
-            background: rgba($background, .2);
+            background: rgba($background, .95);
         }
 
 		a .album-cover {
@@ -88,6 +89,7 @@ header h1 a {
 			width: 94.75%;
 			vertical-align: center;
             margin-top: 40%;
+            transition: 0.3s;
 		}
 
 		a:hover .album-cover {
