@@ -28,7 +28,7 @@ photos:
 
 <ul class="gallery">
 	{% for photo in page.photos %}
-		<li style="background-image: url(&quot{{ site.baseurl }}{{ photo.image | img_url: '800x800', format: 'jpg' }}&quot)">
+		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')">
             <a title="" href="{{ site.baseurl }}{{ photo.linkto }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}">
                 {% if photo.caption %}
                 <div class="album-static-cover">
