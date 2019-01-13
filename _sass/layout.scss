@@ -80,6 +80,7 @@ header h1 a {
         }
 
 		a .album-cover {
+            opacity: 0;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -88,14 +89,13 @@ header h1 a {
 			background-color: rgba($background, .8);
 			padding: 15px;
 			width: 94.75%;
-            height: 0;
 			vertical-align: center;
             margin: 0;
             transition: 0.4s ease-out;
 		}
 
 		a:hover .album-cover {
-            height: auto;
+            opacity: 1;
 			}
 
 		a .no-album-cover {
