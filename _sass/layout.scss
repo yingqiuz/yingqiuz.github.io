@@ -59,6 +59,19 @@ header h1 a {
 			transition: background .2s ease;
 		}
 
+        a. album-static-cover {
+            display: flex;
+			justify-content: center;
+			align-items: center;
+			color: $color;
+			font-size: 1.1em;
+			background-color: rgba($background, .8);
+			padding: 15px;
+			width: 94.75%;
+			vertical-align: center;
+            margin-top: 40%;
+        }
+
 		a .album-cover {
 			display: flex;
 			visibility: hidden;
