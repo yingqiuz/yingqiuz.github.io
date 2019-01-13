@@ -6,8 +6,9 @@ html {
 
 header {
 	display: flex;
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.25em;
 }
 
 a {
@@ -37,7 +38,7 @@ nav {
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: -15px;
-	font-size: 1em;
+	font-size: 0.9em;
 
 	a {
 		padding: 15px;

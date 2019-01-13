@@ -55,11 +55,34 @@ header h1 a {
 			height: 100%;
 			transition: background .2s ease;
 
-			&:hover {
-				background: rgba(255,255,255,.3);
+			&#album-cover {
+				visibility: hidden;
+				display: none;
+				font-size: 1em;
+				align-content: center;
+				margin-left: 10px;
+			}
+
+			&:hover #album-cover {
+				visibility: visible;
+				background: rgba(255,255,255,.4);
+				display: block;
 			}
 		}
 	}
+}
+
+#album-name {
+	display: none;
+    position:relative;
+    bottom:10px;
+    left:0px;
+	background:  rgba(255,255,255,.4);
+	font-size: 1em;
+}
+
+:hover #album-name {
+	display: block;
 }
 
 .caption {
