@@ -47,7 +47,7 @@ nav {
 		transition: color .2s ease;
 
 		&.active {
-			color: $color;
+			color: $link-color;
 		}
 
 		&:hover {

@@ -1,23 +1,37 @@
 ---
-title: Notes
+title: Gallery
 photos:
   - image: /uploads/treeness1.png
-    caption: Flamingo - San Jose, US
+    caption:
+      en: Flamingo - San Jose, US
   - image: /uploads/yong-he-temple.png
-    caption: <em>想起一生中後悔的事<br>梅花便落滿了南山</em>
+    caption:
+      kj: 想起一生中後悔的事<br>梅花便落滿了南山
   - image: /uploads/flower1.png
   - image: /uploads/treeness2.JPG
+    caption:
+      kj: あらたうと青葉若葉の日の光
   - image: /uploads/fireworks1.JPG
+    caption:
+      en: Hanabi
+      kj: 花火
   - image: /uploads/fireworks3.jpg
 ---
 
 <ul class="gallery">
 	{% for photo in page.photos %}
 		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')">
-            <a title="{{ photo.caption }}" href="https://google.ca" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}">
-                <span id="album-cover">
-                    {{ photo.caption }}
-                </span>
+            <a title="{{ photo.caption.en }}{{ photo.caption.kj }}" href="https://google.ca" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption.en }}{{ photo.caption.kj }}">
+                {% if photo.caption %}
+                <div class="album-cover">
+					{{ photo.caption.en }}
+					<br>
+					<em>{{ photo.caption.kj }}</em>
+                </div>
+                {% else %}
+                <div class="no-album-cover">
+                </div>
+                {% endif %}
             </a>
         </li>
 	{% endfor %}
