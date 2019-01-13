@@ -67,17 +67,16 @@ header h1 a {
 			font-size: 1.1em;
 			background-color: rgba($background, .8);
 			padding: 15px;
-			width: 100%;
+			width: 94.75%;
             height: 20%;
 			vertical-align: center;
             margin: 0;
-            transition: 0.4s;
+            transition: 0.4s ease-out;
         }
 
         a:hover .album-static-cover {
             background: rgba($background, .8);
-            height: 30%;
-            margin-top: 30%;
+            height: 50%;
         }
 
 		a .album-cover {
@@ -89,11 +88,10 @@ header h1 a {
 			font-size: 1.1em;
 			background-color: rgba($background, .8);
 			padding: 15px;
-			width: 100%;
-            height: 100%;
+			width: 94.75%;
 			vertical-align: center;
             margin: 0;
-            transition: 0.2s;
+            transition: height 0.4s ease-out;
 		}
 
 		a:hover .album-cover {
@@ -111,19 +109,6 @@ header h1 a {
 			visibility: visible;
 		}
 	}
-}
-
-#album-name {
-	display: none;
-    position:relative;
-    bottom:10px;
-    left:0px;
-	background:  rgba(255,255,255,.4);
-	font-size: 1em;
-}
-
-:hover #album-name {
-	display: block;
 }
 
 .caption {
