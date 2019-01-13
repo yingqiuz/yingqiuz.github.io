@@ -72,6 +72,10 @@ header h1 a {
             margin-top: 40%;
         }
 
+        a:hover .album-static-cover {
+            background: rgba($background, .2);
+        }
+
 		a .album-cover {
 			display: flex;
 			visibility: hidden;
