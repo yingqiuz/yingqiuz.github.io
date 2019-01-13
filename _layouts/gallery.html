@@ -1,19 +1,21 @@
 ---
-title: Gallery
-photos:
-  - image: /uploads/treeness1.png
-    caption: Flamingo - San Jose, US
-  - image: /uploads/yong-he-temple.png
-    caption: <em>想起一生中後悔的事<br>梅花便落滿了南山</em>
-  - image: /uploads/flower1.png
-  - image: /uploads/treeness2.JPG
-  - image: /uploads/fireworks1.JPG
-  - image: /uploads/fireworks3.jpg
+layout: default
 ---
 
 <ul class="gallery">
 	{% for photo in page.photos %}
-		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')"><a title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
+		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')">
+            <a title="" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.cover }}">
+                {% if photo.caption %}
+                <div class="album-cover" style="vertical-align:center;">
+					{{ photo.caption.en }}<em>{{ photo.caption.kj }}</em>
+                </div>
+                {% else %}
+                <div class="no-album-cover">
+                </div>
+                {% endif %}
+            </a>
+        </li>
 	{% endfor %}
 	<li class="spacer"></li>
 	<li class="spacer"></li>

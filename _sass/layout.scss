@@ -32,6 +32,7 @@ header h1 a {
 		margin: 10px;
 		box-sizing: border-box;
 		max-width: 450px;
+		vertical-align: center;
 
 		&:before {
 			content: '';
@@ -51,23 +52,39 @@ header h1 a {
 
 		a {
 			display: block;
+			text-align: center;
+			justify-content: center;
 			width: 100%;
 			height: 100%;
 			transition: background .2s ease;
+		}
 
-			&#album-cover {
-				visibility: hidden;
-				display: none;
-				font-size: 1em;
-				align-content: center;
-				margin-left: 10px;
-			}
+		a .album-cover {
+			display: flex;
+			visibility: hidden;
+			justify-content: center;
+			align-items: center;
+			color: $color;
+			font-size: 1.1em;
+			background-color: rgba($background, .8);
+			padding: 15px;
+			width: 94.75%;
+			vertical-align: center;
+		}
 
-			&:hover #album-cover {
+		a:hover .album-cover {
 				visibility: visible;
-				background: rgba(255,255,255,.4);
-				display: block;
 			}
+
+		a .no-album-cover {
+			visibility: hidden;
+			background-color: rgba($background, .2);
+			margin: 0;
+			width: 100%;
+			height: 100%;
+		}
+		a:hover .no-album-cover {
+			visibility: visible;
 		}
 	}
 }

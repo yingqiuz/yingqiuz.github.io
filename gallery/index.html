@@ -1,0 +1,51 @@
+---
+title: Gallery
+photos:
+  - image: /uploads/treeness1.png
+    linkto: /gallery/treeness/
+    caption: >
+      Treeness<br/>
+      願托喬木
+  - image: /uploads/yong-he-temple.png
+    linkto: /gallery/samgharama/
+    caption: >
+      The Story of Samghārāma<br/>
+      伽藍記
+  - image: /uploads/96139B27-4057-482B-9803-E99295F966E9.jpg
+    linkto: /gallery/illuminance/
+    caption: Illuminance
+  - image: /uploads/fireworks1.JPG
+    linkto: /gallery/fireworks/
+    caption: >
+      Hanabi<br/>
+      花火
+---
+
+<ul class="gallery">
+	{% for photo in page.photos %}
+		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "600x600>" }}')">
+            <a title="" href="{{ site.url }}{{ photo.linkto }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}">
+                {% if photo.caption %}
+                <div class="album-cover">
+					<em>{{ photo.caption }}</em>
+                </div>
+                {% else %}
+                <div class="no-album-cover">
+                </div>
+                {% endif %}
+            </a>
+        </li>
+	{% endfor %}
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+	<li class="spacer"></li>
+</ul>
