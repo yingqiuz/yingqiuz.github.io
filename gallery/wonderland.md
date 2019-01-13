@@ -1,5 +1,5 @@
 ---
-layout:gallery
+layout: gallery
 title: Hard-Boiled Wonderland and <em>世界の終り</em>
 photos:
   - image: /uploads/MountZao.jpeg
