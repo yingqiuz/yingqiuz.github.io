@@ -10,6 +10,7 @@ photos:
   - image: /uploads/flower1.png
   - image: /uploads/treeness2.JPG
     caption:
+      en: Homage to *Nikko*, Matsuo Basho
       kj: あらたうと青葉若葉の日の光
   - image: /uploads/fireworks1.JPG
     caption:
@@ -24,9 +25,7 @@ photos:
             <a title="{{ photo.caption.en }}{{ photo.caption.kj }}" href="https://google.ca" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption.en }}{{ photo.caption.kj }}">
                 {% if photo.caption %}
                 <div class="album-cover">
-					{{ photo.caption.en }}
-					<br>
-					<em>{{ photo.caption.kj }}</em>
+					{{ photo.caption.en }}<em>{{ photo.caption.kj }}</em>
                 </div>
                 {% else %}
                 <div class="no-album-cover">

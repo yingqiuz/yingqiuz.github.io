@@ -3,14 +3,15 @@ title: Gallery
 photos:
   - image: /uploads/treeness1.png
     caption:
-      en: Flamingo - San Jose, US
+      en: Treeness
+      kj: 願托喬木
   - image: /uploads/yong-he-temple.png
     caption:
-      kj: 想起一生中後悔的事<br>梅花便落滿了南山
+      en: The Story of Temples
+      kj: 伽藍記
   - image: /uploads/flower1.png
   - image: /uploads/treeness2.JPG
     caption:
-      kj: あらたうと青葉若葉の日の光
   - image: /uploads/fireworks1.JPG
     caption:
       en: Hanabi
@@ -25,7 +26,8 @@ photos:
                 {% if photo.caption %}
                 <div class="album-cover">
 					{{ photo.caption.en }}
-					<br>
+					<br/>
+					<br/>
 					<em>{{ photo.caption.kj }}</em>
                 </div>
                 {% else %}

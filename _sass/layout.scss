@@ -32,6 +32,7 @@ header h1 a {
 		margin: 10px;
 		box-sizing: border-box;
 		max-width: 450px;
+		vertical-align: center;
 
 		&:before {
 			content: '';
@@ -66,10 +67,10 @@ header h1 a {
 			color: $color;
 			font-size: 1.1em;
 			background-color: rgba($background, .8);
-			padding: 15px;
+			padding: 20px;
 			width: 94.75%;
 			vertical-align: center;
-			margin-top: 100px;
+			margin-top: 40%;
 		}
 
 		a:hover .album-cover {
