@@ -68,7 +68,7 @@ header h1 a {
 			background-color: rgba($background, .8);
 			padding: 15px;
 			width: 94.75%;
-            height: 20%;
+            height: 15%;
 			vertical-align: center;
             margin: 0;
             transition: 0.4s ease-out;
@@ -76,12 +76,11 @@ header h1 a {
 
         a:hover .album-static-cover {
             background: rgba($background, .8);
-            height: 50%;
+            height: 30%;
         }
 
 		a .album-cover {
 			display: flex;
-			visibility: hidden;
 			justify-content: center;
 			align-items: center;
 			color: $color;
@@ -89,13 +88,14 @@ header h1 a {
 			background-color: rgba($background, .8);
 			padding: 15px;
 			width: 94.75%;
+            height: 0;
 			vertical-align: center;
             margin: 0;
-            transition: height 0.4s ease-out;
+            transition: 0.4s ease-out;
 		}
 
 		a:hover .album-cover {
-				visibility: visible;
+            height: auto;
 			}
 
 		a .no-album-cover {
