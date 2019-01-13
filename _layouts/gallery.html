@@ -4,11 +4,11 @@ layout: default
 
 <ul class="gallery">
 	{% for photo in page.photos %}
-		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')">
-            <a title="" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.cover }}">
+		<li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "600x600>" }}')">
+            <a title="" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.description }}">
                 {% if photo.caption %}
                 <div class="album-cover" style="vertical-align:center;">
-					{{ photo.caption.en }}<em>{{ photo.caption.kj }}</em>
+					<em>{{ photo.caption }}</em>
                 </div>
                 {% else %}
                 <div class="no-album-cover">
