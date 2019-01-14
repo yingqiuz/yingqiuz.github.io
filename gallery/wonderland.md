@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Hard-Boiled Wonderland and <em>世界の終り</em>
+title: Hard-Boiled Wonderland <em>  |  世界の終り</em>
 photos:
   - image: /uploads/MountZao.jpeg
     description: Mount Zaō  |  蔵王連峰
