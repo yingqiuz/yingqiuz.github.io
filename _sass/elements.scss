@@ -47,13 +47,74 @@ nav {
 		transition: color .2s ease;
 
 		&.active {
-			color: $link-color;
+			color: $green;
 		}
 
 		&:hover {
-			color: $link-color;
+			color: $green;
+		}
+
+		.dropdown-menu {
+			display: none;
+			position: absolute;
+			background-color: rgba($background, 0.6);
+			z-index: 1;
+
+			a {
+				color: $color;
+				padding: 8px;
+				float: none;
+				display: block;
+				text-align: center;
+				text-decoration: none;
+
+				&:hover {
+					color: $green
+				}
+			}
+		}
+
+		&:hover .dropdown-menu {
+			display: block;
 		}
 	}
+
+	.dropdown {
+		padding: 15px;
+		text-decoration: none;
+		color: darken($color, 30%);
+		transition: color .2s ease;
+
+		.dropdown-btn {
+			visibility: hidden;
+			position: absolute;
+			background-color: rgba($background, 0.6);
+			z-index: 1;
+
+			a {
+				color: $color;
+				padding: 8px;
+				float: none;
+				display: block;
+				text-align: center;
+				text-decoration: none;
+
+				&:hover {
+					color: $green
+				}
+			}
+		}
+
+		&.active {
+			color: $green;
+		}
+
+		&:hover .dropdown-btn {
+			visibility: visible;
+		}
+
+	}
+
 }
 
 section{

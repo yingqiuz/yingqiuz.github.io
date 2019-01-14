@@ -6,6 +6,16 @@
 		{% if link.link == page.url %}
 			{% assign class = class | append: " active" %}
 		{% endif %}
-		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
+		{% if link.menu %}
+					<div class="dropdown">
+						<a href="{{ link.link }}">{{ link.name }}</a>
+					{% for item in link.menu %}
+					<a href="{{ item.sublink }}">{{ item.subname }}</a>
+					{% endfor %}
+					</div>
+
+		{% else %}
+			<a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
+		{% endif %}
 	{% endfor %}
 </nav>

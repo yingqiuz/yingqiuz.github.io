@@ -2,8 +2,8 @@
 # Site
 
 title: Ying-Qiu Zheng
-url: "https://yingqiuzheng.me"
-baseurl: "https://yingqiuzheng.me"
+url:
+baseurl:
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
