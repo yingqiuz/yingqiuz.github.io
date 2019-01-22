@@ -6,16 +6,43 @@
 		{% if link.link == page.url %}
 			{% assign class = class | append: " active" %}
 		{% endif %}
+
+	<!--
+	<a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
+	{% if link.menu %}
+	<div class="dropdown-menu">
+		{% for item in link.menu %}
+		<a href="{{ item.sublink }}">{{ item.subname }}</a>
+		{% endfor %}
+	</div>
+	{% endif %}
+	-->
+	<div class="subnav">
+		<a href="{{ link.link }}">{{ link.name }}</a>
 		{% if link.menu %}
-					<div class="dropdown">
-						<a href="{{ link.link }}">{{ link.name }}</a>
-					{% for item in link.menu %}
+			<div class="subnav-content">
+				{% for item in link.menu %}
 					<a href="{{ item.sublink }}">{{ item.subname }}</a>
-					{% endfor %}
+				{% endfor %}
+			</div>
+		{% endif %}
+	</div>
+	<!--
+		{% if link.menu %}
+					<div class="subnav">
+						<a href="{{ link.link }}">{{ link.name }}</a>
+						<div class="subnav-content">
+							{% for item in link.menu %}
+								<a href="{{ item.sublink }}">{{ item.subname }}</a>
+							{% endfor %}
+						</div>
 					</div>
 
 		{% else %}
 			<a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
 		{% endif %}
+	-->
+
+
 	{% endfor %}
 </nav>
