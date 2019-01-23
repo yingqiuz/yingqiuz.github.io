@@ -20,11 +20,19 @@
 	<div class="subnav">
 		<a href="{{ link.link }}">{{ link.name }}</a>
 		{% if link.menu %}
-			<div class="subnav-content">
-				{% for item in link.menu %}
-					<a href="{{ item.sublink }}">{{ item.subname }}</a>
-				{% endfor %}
-			</div>
+			{% if page.url == link.link or page.url contains link.link %}
+				<div class="subnav-content-constant">
+					{% for item in link.menu %}
+						<a href="{{ item.sublink }}">{{ item.subname }}</a>
+					{% endfor %}
+				</div>
+			{% else %}
+				<div class="subnav-content">
+					{% for item in link.menu %}
+						<a href="{{ item.sublink }}">{{ item.subname }}</a>
+					{% endfor %}
+				</div>
+			{% endif %}
 		{% endif %}
 	</div>
 	<!--
