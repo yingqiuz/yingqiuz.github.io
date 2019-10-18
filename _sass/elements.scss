@@ -89,7 +89,7 @@ nav {
 	visibility: hidden;
 	opacity: 0;
 	right: 50px;
-	font-size: .85em;
+	font-size: .75em;
 	transition: 0.3s 0.3s;
 	z-index: 1;
 	width: 90%;
@@ -122,13 +122,13 @@ nav {
 	background-color: $background;
 	display: flex;
 	right: 50px;
-	font-size: .85em;
+	font-size: .75em;
 	width: 90%;
 	justify-content: flex-end;
 	margin-top: 12px;
 
 	a {
-		padding: 5px;
+		padding: 8px;
 		text-decoration: none;
 		color: darken($color, 30%);
 		transition: color .2s ease;
