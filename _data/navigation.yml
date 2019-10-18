@@ -1,5 +1,14 @@
 - name: About
   link: /
+#- name: Research
+#  link: /research/
+#  menu:
+#    - subname: Publications
+#      sublink: /research/
+#    - subname: Presentations
+#      sublink: /research/
+#    - subname: Resources
+#      sublink: /research/
 - name: Gallery
   link: /gallery/
   menu:
@@ -13,3 +22,18 @@
       sublink: /gallery/fireworks/
     - subname: <em>世界盡頭與冷酷仙境</em>
       sublink: /gallery/HardBoiledWonderland/
+#- name: Notes
+#  link: /notes/
+#  menu:
+#    - subname: Machine Learning
+#      sublink: /notes/
+#    - subname: Network Science
+#      sublink: /notes/
+#    - subname: Visualisation
+#      sublink: /notes/
+#    - subname: <em>佛教 · 仏教</em> · Buddhism
+#      sublink: /notes/
+#    - subname: <em>終朝采藍</em>
+#      sublink: /notes/
+#- name: Misc
+#  link: /misc/
