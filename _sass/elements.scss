@@ -98,7 +98,7 @@ nav {
 
 	a {
 		padding: 3px;
-		padding-right: 5px;
+		padding-right: 6px;
 		padding-left: 8px;
 		text-decoration: none;
 		color: darken($color, 30%);
@@ -131,7 +131,7 @@ nav {
 
 	a {
 		padding: 3px;
-		padding-right: 5px;
+		padding-right: 6px;
 		padding-left: 8px;
 		text-decoration: none;
 		color: darken($color, 30%);
@@ -188,4 +188,11 @@ footer {
 			color: $link-color
 		}
 	}
+}
+
+hr.fading {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba($color, 30%), rgba(0, 0, 0, 0));
+	margin-bottom: 5px;
 }
