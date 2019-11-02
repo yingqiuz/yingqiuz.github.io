@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-
+{% if link.menu %}
+	<I>{{ page.notes }}</I>
+{% endif %}
 <ul class="gallery">
 	{% for photo in page.photos %}
 		<li style="background-image: url({{ photo.image | resize: '600x600' }});">
