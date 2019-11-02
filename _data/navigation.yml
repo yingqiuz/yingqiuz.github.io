@@ -7,16 +7,18 @@
       sublink: /research/
     - subname: Presentations
       sublink: /research/
+    - subname: Research Interest
+      sublink: /research/
 - name: Gallery
   link: /gallery/
   menu:
-    - subname: Treeness
+    - subname: Treeness · <em>願托喬木</em>
       sublink: /gallery/treeness/
-    - subname: <em>伽藍記</em>
+    - subname: The Story of Temples · <em>伽藍記</em>
       sublink: /gallery/samgharama/
-    - subname: Illuminance
+    - subname: About Light, About Shadow
       sublink: /gallery/illuminance/
     - subname: Hanabi · <em>花火</em>
       sublink: /gallery/fireworks/
-    - subname: <em>孤獨禮讚</em>
-      sublink: /gallery/solitude/
+    - subname: Samsara · <em>輪迴之境</em>
+      sublink: /gallery/samsara/
