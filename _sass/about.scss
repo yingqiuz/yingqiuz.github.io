@@ -1,7 +1,6 @@
 .split-content {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 10px;
 	.side-content {
 		flex: 1 0 300px;
 		order: 2;
@@ -22,7 +21,6 @@
 		img {
 			display: block;
 			margin: 0 auto;
-			height: 100%;
 		}
 	}
 }
