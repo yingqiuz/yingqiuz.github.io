@@ -12,7 +12,7 @@ header {
 }
 
 a {
-	color: $link-color;
+	color: darken($color, 30%);
 	text-decoration: none;
 
 	&:hover {
