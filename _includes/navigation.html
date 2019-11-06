@@ -20,6 +20,7 @@
 	<div class="subnav">
 		<a href="{{ link.link }}">{{ link.name }}</a>
 		{% if link.menu %}
+        <!--   !!!!!!!!!! this is for subpages with static subnavs
 			{% if page.url == link.link or page.url contains link.link %}
 				<div class="subnav-content-constant">
 					{% for item in link.menu %}
@@ -33,6 +34,14 @@
 					{% endfor %}
 				</div>
 			{% endif %}
+			!!!!!!!!!! this is for subpages with static subnaves
+		-->
+        <!-- if I just want hovering then visible subnav bar for all pages.... -->
+        <div class="subnav-content">
+            {% for item in link.menu %}
+            <a href="{{ item.sublink }}">{{ item.subname }}</a>
+            {% endfor %}
+        </div>
 		{% endif %}
 	</div>
 	<!--
