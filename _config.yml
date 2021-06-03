@@ -3,7 +3,7 @@
 
 title: Ying-Qiu Zheng
 url:
-baseurl: "https://yingqiuzheng.me"
+baseurl: "https://yingqiuz.github.io"
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
@@ -17,7 +17,7 @@ author:
 social:
   name: Ying-Qiu Zheng
   links:
-    - https://yingqiuzheng.me
+    - https://yingqiuz.github.io
 
 # -----
 # Build
