@@ -6,6 +6,7 @@ photos:
     caption: Broken pillars, Rome
   - image: /uploads/IMG_1297.JPG
     cpation: Dusk at Lisbon
+  - image: /uploads/MountZao.jpeg
   - image: /uploads/D82A0044.jpg
     caption: Seascapes at the westmost point of continental Europe
 permalink: /gallery/terra/
