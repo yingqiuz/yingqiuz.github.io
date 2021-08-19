@@ -7,7 +7,6 @@ photos:
   - image: /uploads/D82A2214-2.jpg
     caption: A window at my place
   - image: /uploads/flower1.png
-  - image: /uploads/IMG_1297.JPG
     caption: Flowers at Wien Museum Schubert's Birthplace
 permalink: /gallery/illuminance/
 ---
