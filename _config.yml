@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Ying-Qiu Zheng
+title: Ying-Qiu (Akina) Zheng
 url:
 baseurl: "https://yingqiuz.github.io"
 google_analytics_key:
@@ -12,7 +12,7 @@ description: Slowly becoming a tree.
 author:
   name: Ying-Qiu Zheng
   email: ying-qiu.zheng@ndcn.ox.ac.uk
-  twitter: Yingqiu_Zheng
+  twitter: yqqqzheng
   github-url: yingqiuz
 social:
   name: Ying-Qiu Zheng
