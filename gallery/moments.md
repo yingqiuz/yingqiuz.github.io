@@ -17,5 +17,7 @@ photos:
   - image: /uploads/D82A1790.jpg
     imagesmall: /uploads/small/D82A1790.jpg
     caption: Withering lotus
+  - image: /uploads/D82A2401.jpg
+    imagesmall: /uploads/small/D82A2401.jpg
 permalink: /gallery/moments/
 ---
