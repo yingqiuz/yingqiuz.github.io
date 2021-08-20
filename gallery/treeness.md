@@ -15,7 +15,7 @@ photos:
     imagesmall: /uploads/small/D82A1568.jpg
     caption: Nara, Japan
   - image: /uploads/treeness2.JPG
-    imagesmall: /uploads/small/treeness2.JPG
+    imagesmall: /uploads/small/treeness2.jpg
     caption: Nikko, Japan
   - image: /uploads/D82A2293.jpg
     imagesmall: /uploads/small/D82A2293.jpg
