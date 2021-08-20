@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Treasured ordinary moments
+title: Treasured common moments
 photos:
   - image: /uploads/D82A0622.jpg
     imagesmall: /uploads/small/D82A0622.jpg
