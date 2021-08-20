@@ -23,8 +23,8 @@ photos:
   - image: /uploads/D82A2315.jpg
     imagesmall: /uploads/small/D82A2315.jpg
     caption: Christ Church Meadow, Oxford
-  - image: /uploads/D82A1716.jpg
-    imagesmall: /uploads/small/D82A1716.jpg
+  - image: /uploads/D82A1876.jpg
+    imagesmall: /uploads/small/D82A1876.jpg
     caption: Inclination
 permalink: /gallery/treeness/
 ---
