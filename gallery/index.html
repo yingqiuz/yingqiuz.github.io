@@ -2,29 +2,34 @@
 title: Gallery
 photos:
   - image: /uploads/treeness1.png
+    imagesmall: /uploads/small/treeness1.png
     linkto: /gallery/treeness/
     caption: >
       Treeness<br/>
       願托喬木
   - image: /uploads/fireworks1.JPG
+    imagesmall: /uploads/small/fireworks1.JPG  
     linkto: /gallery/fireworks/
     caption: >
       Hanabi<br/>
       花火
   - image: /uploads/3EA916BA-E054-4E50-ABF2-F4A4284D1D59.JPG
+    imagesmall: /uploads/small/3EA916BA-E054-4E50-ABF2-F4A4284D1D59.JPG
     linkto: /gallery/terra/
     caption: Terra Lucida
   - image: /uploads/D82A0622.jpg
+    imagesmall: /uploads/small/D82A0622.jpg
     linkto: /gallery/moments/
     caption: Treasured ordinary moments
   - image: /uploads/96139B27-4057-482B-9803-E99295F966E9.jpg
+    imagesmall: /uploads/small/96139B27-4057-482B-9803-E99295F966E9.jpg
     linkto: /gallery/illuminance/
     caption: About Light, About Shadow
 ---
 
 <ul class="gallery">
 	{% for photo in page.photos %}
-		<li style="background-image: url({{ photo.image | resize: '1600x800' }})">
+		<li style="background-image: url({{ photo.imagesmall | resize: '800x800' }})">
             <a title="" href="{{ photo.linkto }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}">
                 {% if photo.caption %}
                 <div class="album-static-cover">
