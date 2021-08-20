@@ -7,9 +7,10 @@ photos:
     caption: Broken pillars, Rome
   - image: /uploads/IMG_1297.JPG
     imagesmall: /uploads/small/IMG_1297.jpg
-    cpation: Dusk at Lisbon
+    caption: Dusk at Lisbon
   - image: /uploads/MountZao.jpeg
     imagesmall: /uploads/small/MountZao.jpeg
+    caption: The Zaō Mountains, 蔵王連峰
   - image: /uploads/D82A0044.jpg
     imagesmall: /uploads/small/D82A0044.jpg
     caption: Seascapes at the westmost point of continental Europe
