@@ -25,6 +25,6 @@ photos:
     caption: Christ Church Meadow, Oxford
   - image: /uploads/D82A1876.jpg
     imagesmall: /uploads/small/D82A1876.jpg
-    caption: Inclination
+    caption: Inclined trees, Kyoto
 permalink: /gallery/treeness/
 ---
