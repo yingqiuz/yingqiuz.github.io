@@ -41,7 +41,9 @@ header h1 a {
 		margin: 10px;
 		box-sizing: border-box;
 		max-width: 450px;
+		/*
 		vertical-align: center;
+		*/
 		&:before {
 			content: '';
 			padding-top: 100%;
