@@ -7,7 +7,7 @@ layout: default
 {% endif %}
 <ul class="gallery">
 	{% for photo in page.photos %}
-		<li style="background-image: url({{ photo.imagesmall | resize: '1600x800' }});">
+		<li style="background-image: url({{ photo.imagesmall }}); padding-top: 300px;">
             <a title="{{ photo.caption }}" href="{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.description }}">
                 {% if photo.caption %}
                 <div class="album-cover" style="vertical-align:center;">
