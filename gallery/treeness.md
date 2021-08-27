@@ -28,6 +28,7 @@ photos:
     caption: Headington after snow, Oxford
   - image: /uploads/D82A2315.jpg
     imagesmall: /uploads/small/D82A2315.jpg
+    ratio: 0.6667
     caption: Christ Church Meadow, Oxford
   - image: /uploads/D82A1876.jpg
     imagesmall: /uploads/small/D82A1876.jpg
