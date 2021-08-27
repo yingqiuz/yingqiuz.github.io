@@ -4,20 +4,35 @@ title: Treasured common moments
 photos:
   - image: /uploads/D82A0622.jpg
     imagesmall: /uploads/small/D82A0622.jpg
+    ratio: 0.75
   - image: /uploads/yong-he-temple.png
     imagesmall: /uploads/small/yong-he-temple.png
+    ratio: 1.2731
     caption: >
       只要想起一生中後悔的事<br/>
       梅花便落滿了南山<br/>
   - image: /uploads/D82A1604.jpg
     imagesmall: /uploads/small/D82A1604.jpg
+    ratio: 0.6667
   - image: /uploads/flower1.png
     imagesmall: /uploads/small/flower1.png
+    ratio: 0.6258
     caption: Flowers at Wien Museum Schubert's Birthplace
   - image: /uploads/D82A1790.jpg
     imagesmall: /uploads/small/D82A1790.jpg
+    ratio: 0.6190
     caption: Withering lotus
   - image: /uploads/D82A2401.jpg
     imagesmall: /uploads/small/D82A2401.jpg
+    ratio: 0.6667
+  - image: /uploads/68C4786F-31E0-4C6A-9113-DA86DBF7056F.jpg
+    imagesmall: /uploads/small/68C4786F-31E0-4C6A-9113-DA86DBF7056F.jpg
+    ratio: 1
+  - image: /uploads/D82A1278.ipg
+    imagesmall: /uploads/small/D82A1278.ipg
+    ratio: 0.7137
+  - image: /uploads/IMG_1311.jpg
+    imagesmall: /uploads/small/IMG_1311.jpg
+    ratio: 0.7382
 permalink: /gallery/moments/
 ---
