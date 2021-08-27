@@ -31,7 +31,7 @@ photos:
 
 <ul class="gallery">
 	{% for photo in page.photos %}
-		<li style="background-image: url({{ photo.imagesmall }}); padding-top: 400px;">
+		<li style="background-image: url({{ photo.imagesmall }}); padding-top: calc({{ photo.ratio }} * 300px);">
             <a title="" href="{{ photo.linkto }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}">
                 {% if photo.caption %}
                 <div class="album-static-cover">
