@@ -28,8 +28,8 @@ photos:
   - image: /uploads/68C4786F-31E0-4C6A-9113-DA86DBF7056F.jpg
     imagesmall: /uploads/small/68C4786F-31E0-4C6A-9113-DA86DBF7056F.jpg
     ratio: 1
-  - image: /uploads/D82A1278.ipg
-    imagesmall: /uploads/small/D82A1278.ipg
+  - image: /uploads/D82A1278.jpg
+    imagesmall: /uploads/small/D82A1278.jpg
     ratio: 0.7137
   - image: /uploads/IMG_1311.jpg
     imagesmall: /uploads/small/IMG_1311.jpg
