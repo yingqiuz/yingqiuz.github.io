@@ -13,6 +13,8 @@ photos:
   - image: /uploads/IMG_1188.jpg
     imagesmall: /uploads/small/IMG_1188.jpg
     ratio: 0.6621
+  - image: /uploads/IMG_1307.jpg
+    imagesmall: /uploads/small/IMG_1307.jpg
 permalink: /gallery/illuminance/
 ---
 
