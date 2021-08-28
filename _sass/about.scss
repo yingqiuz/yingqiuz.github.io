@@ -1,6 +1,7 @@
 .split-content {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	.side-content {
 		flex: 1 0 300px;
 		order: 2;
