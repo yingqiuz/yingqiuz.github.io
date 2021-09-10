@@ -27,5 +27,7 @@ photos:
   - image: /uploads/D82A2079.jpg
     imagesmall: /uploads/small/D82A2079.jpg
     ratio: 0.6258
+  - image: /uploads/IMG_1107.jpg
+    imagesmall: /uploads/small/IMG_1107.jpg
 permalink: /gallery/moments/
 ---

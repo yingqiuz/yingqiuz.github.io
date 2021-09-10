@@ -11,12 +11,13 @@ photos:
     caption: Withering lotus
   - image: /uploads/68C4786F-31E0-4C6A-9113-DA86DBF7056F.jpg
     imagesmall: /uploads/small/68C4786F-31E0-4C6A-9113-DA86DBF7056F.jpg
-    ratio: 1
+  - image: /uploads/IMG_1106.jpg
+    imagesmall: /uploads/small/IMG_1106.jpg
 permalink: /gallery/transient/
 notes: >
   All conditioned phenomena<br/>
   Are like a dream, an illusion, a bubble, a shadow,<br/>
   Like dew or a flash of lightning;<br/>
   Thus we shall perceive them.<br/>
-  ----*The Diamond Sutra*, Section 26
+  ------*The Diamond Sutra*, Section 26
 ---
