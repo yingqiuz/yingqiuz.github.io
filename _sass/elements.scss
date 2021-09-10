@@ -27,9 +27,15 @@ p {
 }
 
 .intro {
-	width: 98%;
-	display: block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	li {
+		flex-basis: 100%;
+	}
 }
 
 em {
