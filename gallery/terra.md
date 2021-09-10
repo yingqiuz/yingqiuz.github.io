@@ -10,10 +10,10 @@ photos:
     imagesmall: /uploads/small/IMG_1297.jpg
     ratio: 0.8640
     caption: Dusk at Lisbon
-  - image: /uploads/MountZao.jpeg
-    imagesmall: /uploads/small/MountZao.jpg
-    ratio: 0.5624
-    caption: The Zaō Mountains, 蔵王連峰
+  - image: /uploads/D82A0294.jpg
+    imagesmall: /uploads/small/D82A0294.jpg
+    ratio: 0.7376
+    caption: To the lighthouse
   - image: /uploads/D82A0337.jpg
     imagesmall: /uploads/small/D82A0337.jpg
     ratio: 0.7376
@@ -21,9 +21,9 @@ photos:
     imagesmall: /uploads/small/D82A0044.jpg
     ratio: 0.6668
     caption: Seascapes at the westmost point of continental Europe
-  - image: /uploads/D82A0294.jpg
-    imagesmall: /uploads/small/D82A0294.jpg
+  - image: /uploads/IMG_7599.JPG
+    imagesmall: /uploads/small/IMG_7599.JPG
     ratio: 0.7376
-    caption: Seascapes at the westmost point of continental Europe
+    caption: To the Arctic Circle
 permalink: /gallery/terra/
 ---
