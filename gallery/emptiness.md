@@ -13,10 +13,10 @@ photos:
     imagesmall: /uploads/small/68C4786F-31E0-4C6A-9113-DA86DBF7056F.jpg
     ratio: 1
 permalink: /gallery/transient/
+notes: >
+  > All conditioned phenomena
+  > Are like a dream, an illusion, a bubble, a shadow,
+  > Like dew or a flash of lightning;
+  > Thus we shall perceive them.
+  --*The Diamond Sutra*, Section 26
 ---
-
-> All conditioned phenomena
-> Are like a dream, an illusion, a bubble, a shadow,
-> Like dew or a flash of lightning;
-> Thus we shall perceive them.
-*The Diamond Sutra*, Section 26
