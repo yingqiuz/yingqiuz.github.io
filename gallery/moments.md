@@ -14,8 +14,15 @@ photos:
   - image: /uploads/D82A2401.jpg
     imagesmall: /uploads/small/D82A2401.jpg
     ratio: 0.6667
+  - image: /uploads/D82A1278.jpg
+    imagesmall: /uploads/small/D82A1278.jpg
+    ratio: 0.7137
   - image: /uploads/IMG_1311.jpg
     imagesmall: /uploads/small/IMG_1311.jpg
     ratio: 0.7382
+  - image: /uploads/flower1.png
+    imagesmall: /uploads/small/flower1.png
+    ratio: 0.6258
+    caption: Flowers at Wien Museum Schubert's Birthplace
 permalink: /gallery/moments/
 ---
