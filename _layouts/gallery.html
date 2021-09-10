@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.notes %}
-	{{ page.notes }}
+	{{ page.notes | markdownify }}
 {% endif %}
 <ul class="gallery">
 	{% for photo in page.photos %}
