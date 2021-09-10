@@ -2,15 +2,14 @@
 layout: default
 ---
 
+{% if page.notes %}
+	<div class="intro">
+		{{ page.notes | markdownify }}
+	</div>		
+{% endif %}
+
 <ul class="gallery">
-	{% if page.notes %}
-		<li class="description">
-			{{ page.notes | markdownify }}
-		</li>
-		
-		<div class="break"></div>
-		
-	{% endif %}
+	
 	{% for photo in page.photos %}
 		<li style="background-image: url({{ photo.imagesmall | resize: '1600x800' }});">
             <a title="{{ photo.caption }}" href="{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.description }}">
