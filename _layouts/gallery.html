@@ -3,11 +3,12 @@ layout: default
 ---
 
 <ul class="gallery">
-	<li class="description">
-		{% if page.notes %}
+	{% if page.notes %}
+		<li class="description">
 			{{ page.notes | markdownify }}
-		{% endif %}
-	</li>
+		</li>
+		<div class="break"></div>
+	{% endif %}
 	{% for photo in page.photos %}
 		<li style="background-image: url({{ photo.imagesmall | resize: '1600x800' }});">
             <a title="{{ photo.caption }}" href="{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.description }}">
