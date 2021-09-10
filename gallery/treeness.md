@@ -30,12 +30,18 @@ photos:
     imagesmall: /uploads/small/D82A2315.jpg
     ratio: 0.6667
     caption: Christ Church Meadow, Oxford
+  - image: /uploads/F234B19C-562C-43BF-BCFE-DD8E925162CA.jpg
+    imagesmall: /uploads/small/F234B19C-562C-43BF-BCFE-DD8E925162CA.jpg
   - image: /uploads/D82A1876.jpg
     imagesmall: /uploads/small/D82A1876.jpg
     ratio: 0.6667
     caption: Inclined trees, Kyoto
   - image: /uploads/D82A2291.jpg
-  - imagesmall: /uploads/small/D82A2291.jpg
+    imagesmall: /uploads/small/D82A2291.jpg
+  - image: /uploads/D82A2308.jpg
+    imagesmall: /uploads/small/D82A2308.jpg
+  - image: /uploads/D82A2163.jpg
+    imagesmall: /uploads/small/D82A2163.jpg
 permalink: /gallery/treeness/
 notes: From observing a tree to becoming a tree.
 ---
