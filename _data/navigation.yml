@@ -1,6 +1,6 @@
 - name: About
   link: /
-- name: Gallery
+- name: Portfolio
   link: /gallery/
   menu:
     - subname: Treeness · <em>願托喬木</em>
