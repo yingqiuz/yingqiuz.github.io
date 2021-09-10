@@ -9,9 +9,11 @@
       sublink: /gallery/fireworks/
     - subname: Terra Lucida · <em>澄澈大地</em>
       sublink: /gallery/terra/
-    - subname: Moments
+    - subname: <em>一期一会</em>
       sublink: /gallery/moments/
     - subname: About Light, About Shadow
       sublink: /gallery/illuminance/
-    - subname: Portraits
-      sublink: /gallery/portraits/
+    - subname: Grayscale
+      sublink: /gallery/grayscale/
+    - subname: Imperfection
+      sublink: /gallery/transient/
