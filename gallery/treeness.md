@@ -34,5 +34,7 @@ photos:
     imagesmall: /uploads/small/D82A1876.jpg
     ratio: 0.6667
     caption: Inclined trees, Kyoto
+  - image: /uploads/D82A2291.jpg
+  - imagesmall: /uploads/small/D82A2291.jpg
 permalink: /gallery/treeness/
 ---
