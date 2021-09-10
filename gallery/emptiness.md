@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Beauty of Imperfection
+title: The impermanence  <em>|  無常</em>
 photos:
   - image: /uploads/D82A0622.jpg
     imagesmall: /uploads/small/D82A0622.jpg
@@ -20,7 +20,7 @@ photos:
     imagesmall: /uploads/small/D82A0608.jpg
   - image: /uploads/IMG_6266.jpg
     imagesmall: /uploads/small/IMG_6266.jpg 
-permalink: /gallery/transient/
+permalink: /gallery/impermanence/
 notes: >
   All conditioned phenomena<br/>
   Are like a dream, an illusion, a bubble, a shadow,<br/>
