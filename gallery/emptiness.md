@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Impermanence  <em>|  无常</em>
+title: Beauty of Imperfection
 photos:
   - image: /uploads/D82A0622.jpg
     imagesmall: /uploads/small/D82A0622.jpg
