@@ -18,6 +18,8 @@ photos:
     caption: The shadow of the rose
   - image: /uploads/D82A0608.jpg
     imagesmall: /uploads/small/D82A0608.jpg
+  - image: /uploads/IMG_6266.jpg
+    imagesmall: /uploads/small/IMG_6266.jpg 
 permalink: /gallery/transient/
 notes: >
   All conditioned phenomena<br/>
