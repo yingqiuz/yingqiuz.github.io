@@ -7,9 +7,9 @@ layout: default
 		<li class="description">
 			{{ page.notes | markdownify }}
 		</li>
-		<!--
-			<div class="break"></div>
-		-->
+		
+		<div class="break"></div>
+		
 	{% endif %}
 	{% for photo in page.photos %}
 		<li style="background-image: url({{ photo.imagesmall | resize: '1600x800' }});">
