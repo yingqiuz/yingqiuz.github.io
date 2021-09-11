@@ -29,5 +29,9 @@ photos:
     ratio: 0.6258
   - image: /uploads/IMG_1107.jpg
     imagesmall: /uploads/small/IMG_1107.jpg
+  - image: /uploads/A2C0925F-AB3C-4F8A-9D32-9CAC6A56459D.jpg
+    imagesmall: /uploads/small/A2C0925F-AB3C-4F8A-9D32-9CAC6A56459D.jpg
+  - image: /uploads/D82A0013.jpg
+    imagesmall: /uploads/small/D82A0013.jpg
 permalink: /gallery/moments/
 ---

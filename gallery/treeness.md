@@ -42,6 +42,8 @@ photos:
     imagesmall: /uploads/small/D82A2308.jpg
   - image: /uploads/D82A2163.jpg
     imagesmall: /uploads/small/D82A2163.jpg
+  - image: /uploads/D82A0004.jpg
+    imagesmall: /uploads/small/D82A0004.jpg
 permalink: /gallery/treeness/
 notes: From observing a tree to becoming a tree.
 ---
