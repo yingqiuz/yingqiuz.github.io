@@ -17,5 +17,9 @@ photos:
     imagesmall: /uploads/small/94198B94-F715-4C83-9C95-A0903E8952C5.jpg
   - image: /uploads/A2C0925F-AB3C-4F8A-9D32-9CAC6A56459D.jpg
     imagesmall: /uploads/small/A2C0925F-AB3C-4F8A-9D32-9CAC6A56459D.jpg
+  - image: /uploads/photo15.jpg
+    imagesmall: /uploads/small/photo15.jpg
+  - image: /uploads/D82A1259.jpg
+    imagesmall: /uploads/small/D82A1259.jpg
 permalink: /gallery/grayscale/
 ---
