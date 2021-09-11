@@ -5,6 +5,7 @@ photos:
   - image: /uploads/3EA916BA-E054-4E50-ABF2-F4A4284D1D59.JPG
     imagesmall: /uploads/small/3EA916BA-E054-4E50-ABF2-F4A4284D1D59.jpg
     ratio: 0.9968
+    caption: Broken pillars at Roman Forum
   - image: /uploads/IMG_1297.JPG
     imagesmall: /uploads/small/IMG_1297.jpg
     ratio: 0.8640
@@ -18,11 +19,13 @@ photos:
     ratio: 0.7376
   - image: /uploads/D82A2200.jpg
     imagesmall: /uploads/small/D82A2200.jpg
+    caption: A view of Oxford's skyline in South Park
   - image: /uploads/IMG_7599.jpg
     imagesmall: /uploads/small/IMG_7599.jpg
     ratio: 0.7376
-    caption: To the Arctic Circle
+    caption: On the way to the Arctic Circle, Alaska, 2016
   - image: /uploads/IMG_8546.jpg
     imagesmall: /uploads/small/IMG_8546.jpg
+    caption: Infrared
 permalink: /gallery/terra/
 ---
