@@ -22,6 +22,8 @@ photos:
     imagesmall: /uploads/small/IMG_6266.jpg 
   - image: /uploads/FE0EDA7F-F489-4E56-BF6D-0235B8DCEC71.jpg
     imagesmall: /uploads/small/FE0EDA7F-F489-4E56-BF6D-0235B8DCEC71.jpg 
+  - image: /uploads/D82A1689.jpg
+    imagesmall: /uploads/small/D82A1689.jpg
 permalink: /gallery/impermanence/
 notes: >
   All conditioned phenomena<br/>

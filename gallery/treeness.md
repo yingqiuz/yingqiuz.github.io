@@ -18,10 +18,8 @@ photos:
     imagesmall: /uploads/small/D82A1568.jpg
     ratio: 0.6255
     caption: Trees and deers, Nara, Japan
-  - image: /uploads/treeness2.JPG
-    imagesmall: /uploads/small/treeness2.jpg
-    ratio: 0.5625
-    caption: Trees out of focus, Nikko, Japan
+  - image: /uploads/D82A2291.jpg
+    imagesmall: /uploads/small/D82A2291.jpg
   - image: /uploads/D82A2293.jpg
     imagesmall: /uploads/small/D82A2293.jpg
     ratio: 0.6887
@@ -36,8 +34,10 @@ photos:
     imagesmall: /uploads/small/D82A1876.jpg
     ratio: 0.6667
     caption: Inclined trees, Kyoto
-  - image: /uploads/D82A2291.jpg
-    imagesmall: /uploads/small/D82A2291.jpg
+  - image: /uploads/treeness2.JPG
+    imagesmall: /uploads/small/treeness2.jpg
+    ratio: 0.5625
+    caption: Trees out of focus, Nikko, Japan
   - image: /uploads/D82A2308.jpg
     imagesmall: /uploads/small/D82A2308.jpg
   - image: /uploads/D82A2163.jpg
