@@ -20,9 +20,13 @@ photos:
     imagesmall: /uploads/small/D82A0044.jpg
     ratio: 0.6668
     caption: Seascapes at the westmost point of continental Europe
+  - image: /uploads/D82A2200.jpg
+    imagesmall: /uploads/small/D82A2200.jpg
   - image: /uploads/IMG_7599.jpg
     imagesmall: /uploads/small/IMG_7599.jpg
     ratio: 0.7376
     caption: To the Arctic Circle
+  - image: /uploads/IMG_8546.jpg
+    imagesmall: /uploads/small/IMG_8546.jpg
 permalink: /gallery/terra/
 ---
