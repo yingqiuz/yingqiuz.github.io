@@ -31,5 +31,7 @@ photos:
     imagesmall: /uploads/small/IMG_1107.jpg
   - image: /uploads/D82A0013.jpg
     imagesmall: /uploads/small/D82A0013.jpg
+  - image: /uploads/IMG_1307.jpg
+    imagesmall: /uploads/small/IMG_1307.jpg
 permalink: /gallery/moments/
 ---
