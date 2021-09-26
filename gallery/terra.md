@@ -27,5 +27,10 @@ photos:
   - image: /uploads/IMG_8546.jpg
     imagesmall: /uploads/small/IMG_8546.jpg
     caption: Infrared
+  - image: /uploads/D82A3662.jpg
+    imagesmall: /uploads/small/D82A3662.jpg
+    caption: Port Meadow, Oxford
+  - image: /uploads/D82A3787.jpg
+    imagesmall: /uploads/small/D82A3787 .jpg
 permalink: /gallery/terra/
 ---
