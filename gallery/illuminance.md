@@ -2,6 +2,8 @@
 layout: gallery
 title: About Light, About Shadow
 photos:
+  - image: /uploads/D82A3956.jpg
+    imagesmall: /uploads/small/D82A3956.jpg
   - image: /uploads/96139B27-4057-482B-9803-E99295F966E9.jpg
     imagesmall: /uploads/small/96139B27-4057-482B-9803-E99295F966E9.jpg
     ratio: 0.6305
