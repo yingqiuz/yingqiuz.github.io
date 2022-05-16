@@ -53,5 +53,7 @@ photos:
     imagesmall: /uploads/small/D82A9798.jpg
     caption: Trees under misty sunshine
 permalink: /gallery/treeness/
-notes: From observing a tree to becoming a tree.
+notes: >
+  To be an artist means: not to calculate and count; to grow and ripen like a tree which does not hurry the flow of its sap and stands at ease in the spring gales without fearing that no summer may follow. 
+  ------*Letters to a Young Poet*, Rainer Maria Rilke
 ---
