@@ -28,7 +28,7 @@ photos:
     caption: Scattered petals
   - image: /uploads/D82A1689.jpg
     imagesmall: /uploads/small/D82A1689.jpg
-    caption: Reborn
+    caption: 苔のむすまで
 permalink: /gallery/impermanence/
 notes: >
   All conditioned phenomena<br/>
