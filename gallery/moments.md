@@ -18,7 +18,7 @@ photos:
   - image: /uploads/D82A1278.jpg
     imagesmall: /uploads/small/D82A1278.jpg
     ratio: 0.7137
-    caption: In one of the temples of Mount Kōya
+    caption: In a monastery of Mount Kōya, Eko-in temple
   - image: /uploads/IMG_1311.jpg
     imagesmall: /uploads/small/IMG_1311.jpg
     ratio: 0.7382
