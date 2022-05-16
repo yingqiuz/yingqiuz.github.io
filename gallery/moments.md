@@ -31,9 +31,6 @@ photos:
     ratio: 0.6258
   - image: /uploads/IMG_1107.jpg
     imagesmall: /uploads/small/IMG_1107.jpg
-  - image: /uploads/D82A0013.jpg
-    imagesmall: /uploads/small/D82A0013.jpg
-    caption: Flowers and geometry
   - image: /uploads/IMG_1307.jpg
     imagesmall: /uploads/small/IMG_1307.jpg
 permalink: /gallery/moments/

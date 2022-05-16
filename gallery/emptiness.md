@@ -16,7 +16,7 @@ photos:
     imagesmall: /uploads/small/IMG_1106.jpg
   - image: /uploads/D82A0737.jpg
     imagesmall: /uploads/small/D82A0737.jpg
-    caption: The shadow of a rose
+    caption: The silhouette of a rose
   - image: /uploads/D82A0608.jpg
     imagesmall: /uploads/small/D82A0608.jpg
     caption: Dust to dust
